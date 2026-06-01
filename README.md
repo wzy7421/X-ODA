@@ -32,6 +32,8 @@ Generated files will be written to `outputs/`:
 
 The numbers in `data/provisional_revision_results.json` are **provisional drafting values** prepared for manuscript revision scaffolding. Replace them with final experiment logs, statistical outputs, ethics metadata, and user-study records before journal submission.
 
+The validation script intentionally checks reviewer-facing constraints: all six XAI methods requested in the revision are present, the OOD table contains both primary optical and CBCT rows, workflow cases sum correctly, confidence intervals are well formed, and reported percentages/latencies are in valid ranges.
+
 ## Privacy Design
 
 The revised manuscript states that external API calls should receive only de-identified structured evidence. The helper in `src/xoda/privacy.py` enforces that policy by accepting only:
@@ -61,4 +63,3 @@ src/xoda/
   privacy.py
   prompting.py
 ```
-
