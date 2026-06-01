@@ -1,0 +1,8 @@
+| method | faithfulness | expert_localization_agreement | latency_s |
+| --- | --- | --- | --- |
+| Grad-CAM | 89.7 | 0.74 | 0.18 |
+| Score-CAM | 86.4 | 0.71 | 1.42 |
+| Eigen-CAM | 82.9 | 0.67 | 0.21 |
+| Integrated Gradients | 80.8 | 0.63 | 0.96 |
+| SHAP | 77.6 | 0.58 | 4.85 |
+| LIME | 73.2 | 0.52 | 3.92 |

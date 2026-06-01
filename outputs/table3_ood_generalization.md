@@ -1,0 +1,4 @@
+| evaluation_set | n | accuracy | accuracy_ci | macro_f1 | macro_f1_ci | faithfulness | faithfulness_ci |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Primary optical test set | 1275 | 92.6 | [91.1, 93.8] | 92.4 | [90.8, 93.7] | 89.7 | [87.9, 91.2] |
+| OOD CBCT test set | 240 | 86.8 | [82.1, 90.4] | 85.9 | [81.0, 89.7] | 81.6 | [77.2, 85.3] |

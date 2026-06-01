@@ -1,0 +1,6 @@
+﻿severity,cases,action_accuracy,false_finding_rate,latency_s
+Normal,180,99.4,0.5,1.82
+Early,145,97.9,1.2,2.15
+Progressing,110,96.3,1.8,2.68
+Severe,65,98.5,2.1,2.85
+Overall,500,98.2,1.25,2.26
