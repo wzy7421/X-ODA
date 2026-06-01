@@ -16,6 +16,7 @@ No raw clinical images, patient identifiers, EHR exports, API keys, or private r
 ```powershell
 python -m pip install -r requirements.txt
 python scripts/validate_revision_results.py
+python scripts/validate_author_verification.py --allow-todo data/author_verification_template.json
 python scripts/generate_revision_outputs.py --results data/provisional_revision_results.json --out outputs
 ```
 
@@ -34,6 +35,8 @@ The numbers in `data/provisional_revision_results.json` are **provisional drafti
 
 The validation script intentionally checks reviewer-facing constraints: all six XAI methods requested in the revision are present, the OOD table contains both primary optical and CBCT rows, workflow cases sum correctly, confidence intervals are well formed, and reported percentages/latencies are in valid ranges.
 
+`data/author_verification_template.json` tracks the seven manuscript fields that require author-approved records before submission. Use `--allow-todo` only to validate the public template structure. After filling final values, run `python scripts/validate_author_verification.py <filled-json>` without `--allow-todo`; the script will fail if any author-confirmed value or source-record check remains blank.
+
 ## Privacy Design
 
 The revised manuscript states that external API calls should receive only de-identified structured evidence. The helper in `src/xoda/privacy.py` enforces that policy by accepting only:
@@ -50,6 +53,7 @@ It rejects obvious patient identifiers and never includes raw image bytes.
 
 ```text
 data/
+  author_verification_template.json
   provisional_revision_results.json
 figures/
   Fig2_XODA_graphical_abstract_gpt_image2.png
@@ -57,6 +61,7 @@ figures/
   Fig5_system_architecture_gpt_image2.png
 scripts/
   generate_revision_outputs.py
+  validate_author_verification.py
   validate_revision_results.py
 src/xoda/
   metrics.py
