@@ -1,0 +1,54 @@
+{
+  "instructions": "Fill these fields with author-verified records before removing AUTHOR_VERIFY markers from the manuscript. Do not store private ethics IDs or patient-sensitive details in a public repository unless the authors intentionally approve disclosure.",
+  "items": {
+    "AV1": {
+      "topic": "Inter-rater agreement and duplicate handling",
+      "manuscript_location": "Section 4.1.2 / data quality control",
+      "required_input": "Final Fleiss' kappa value; number of duplicate or near-duplicate images removed; confirmation that same-patient images were grouped before splitting.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV2": {
+      "topic": "Final statistical outputs",
+      "manuscript_location": "Section 4.4; Tables 2, 3, 4, and 6",
+      "required_input": "Final bootstrap confidence intervals, p-values, effect sizes, and multiple-comparison correction output.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV3": {
+      "topic": "Baseline latency logs",
+      "manuscript_location": "Table 2 caption and generated outputs",
+      "required_input": "Final single-image inference latency for all nine baselines and X-ODA; workstation/deployment environment; batch size; warm-up rule.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV4": {
+      "topic": "Dentist demographics and questionnaire",
+      "manuscript_location": "Section 5.4 / participant characteristics",
+      "required_input": "Participant demographics approved for reporting; years of experience; specialties; questionnaire items or appendix reference; user-study ethics approval.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV5": {
+      "topic": "Fig. 9 final values",
+      "manuscript_location": "Fig. 9 and Table 6",
+      "required_input": "Final manual and X-ODA values for diagnostic accuracy, time per case, trust score, and explanation satisfaction.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV6": {
+      "topic": "Funding statement",
+      "manuscript_location": "Funding statement",
+      "required_input": "Confirm no funding, or provide funder name, grant number, and recipient.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    },
+    "AV7": {
+      "topic": "Ethics approval and consent",
+      "manuscript_location": "Ethics statement",
+      "required_input": "Ethics committee name; approval number/date; informed consent or waiver statement; de-identification confirmation.",
+      "author_confirmed_value": "TODO",
+      "source_record_checked": "TODO"
+    }
+  }
+}
