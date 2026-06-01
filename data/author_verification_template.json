@@ -5,6 +5,7 @@
       "topic": "Inter-rater agreement and duplicate handling",
       "manuscript_location": "Section 4.1.2 / data quality control",
       "required_input": "Final Fleiss' kappa value; number of duplicate or near-duplicate images removed; confirmation that same-patient images were grouped before splitting.",
+      "evidence_found_in_supplied_files": "Original manuscript states that three practicing dentists with more than 5 years of clinical experience independently annotated labels and that a fourth senior chief physician adjudicated disagreements. No exact kappa value or duplicate-removal count was found in the supplied files.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -12,6 +13,7 @@
       "topic": "Final statistical outputs",
       "manuscript_location": "Section 4.4; Tables 2, 3, 4, and 6",
       "required_input": "Final bootstrap confidence intervals, p-values, effect sizes, and multiple-comparison correction output.",
+      "evidence_found_in_supplied_files": "Original manuscript reports point estimates such as 92.6% classification accuracy, 89.7% faithfulness, 98.2% action accuracy, 2.26 s average end-to-end latency, and user-study improvements, but no final CI, p-value, or effect-size logs were found outside the provisional revision files.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -19,6 +21,7 @@
       "topic": "Baseline latency logs",
       "manuscript_location": "Table 2 caption and generated outputs",
       "required_input": "Final single-image inference latency for all nine baselines and X-ODA; workstation/deployment environment; batch size; warm-up rule.",
+      "evidence_found_in_supplied_files": "Original manuscript confirms dual NVIDIA GeForce RTX 4090 GPUs, 128 GB DDR5 RAM, AMD Ryzen 9 7950X, Ubuntu 22.04, PyTorch 2.1.0, and an average X-ODA end-to-end latency of 2.26 s. No per-baseline single-image latency log was found in the supplied files.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -26,6 +29,7 @@
       "topic": "Dentist demographics and questionnaire",
       "manuscript_location": "Section 5.4 / participant characteristics",
       "required_input": "Participant demographics approved for reporting; years of experience; specialties; questionnaire items or appendix reference; user-study ethics approval.",
+      "evidence_found_in_supplied_files": "Original manuscript states that 12 practicing dentists participated, including 6 senior attending physicians and 6 junior resident physicians, and that each evaluated 100 independent oral cases. No age, gender, specialty distribution, detailed years of experience, or approved questionnaire text was found in the supplied files.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -33,6 +37,7 @@
       "topic": "Fig. 9 final values",
       "manuscript_location": "Fig. 9 and Table 6",
       "required_input": "Final manual and X-ODA values for diagnostic accuracy, time per case, trust score, and explanation satisfaction.",
+      "evidence_found_in_supplied_files": "Original manuscript reports approximate user-study outcomes: average diagnostic time reduced by about 70%, early lesion detection above 91%, and clinical trust score above 6.5/7. The revised Fig. 9/Table 6 values are provisional and should be regenerated if final statistics differ.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -40,6 +45,7 @@
       "topic": "Funding statement",
       "manuscript_location": "Funding statement",
       "required_input": "Confirm no funding, or provide funder name, grant number, and recipient.",
+      "evidence_found_in_supplied_files": "No explicit funding or grant statement was found in the supplied manuscript, title page, cover letter, author agreement, or response files. Cover letter and author agreement mention no conflicts of interest, which is not the same as funding confirmation.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     },
@@ -47,6 +53,7 @@
       "topic": "Ethics approval and consent",
       "manuscript_location": "Ethics statement",
       "required_input": "Ethics committee name; approval number/date; informed consent or waiver statement; de-identification confirmation.",
+      "evidence_found_in_supplied_files": "Original manuscript states that all clinical data were strictly de-identified, that data usage protocols were approved by ethics committees of collaborating institutions, and that the study complied with the Declaration of Helsinki. No exact ethics committee name, approval number/date, consent wording, or waiver wording was found in the supplied files.",
       "author_confirmed_value": "TODO",
       "source_record_checked": "TODO"
     }
